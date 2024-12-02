@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "final_project_rent_moto_be"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "final_project_rent_moto_be-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
